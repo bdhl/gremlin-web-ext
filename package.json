@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/bdhl/gremlin-web-ext/issues"
   },
-  "homepage": "https://github.com/bdhl/gremlin-web-ext#readme"
+  "homepage": "https://github.com/bdhl/gremlin-web-ext#readme",
+  "dependencies": {
+    "gremlin": "^3.4.6",
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^7.2.1"
+  }
 }
