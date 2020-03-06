@@ -1,0 +1,29 @@
+{
+  "name": "gremlin-web-ext",
+  "version": "1.0.0",
+  "description": "Adapted JavaScript Gremlin Language for Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdhl/gremlin-web-ext.git"
+  },
+  "keywords": [
+    "graph",
+    "gremlin",
+    "tinkerpop",
+    "connection",
+    "glv",
+    "driver",
+    "graphdb",
+    "web"
+  ],
+  "author": "Dzmitry Sushko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bdhl/gremlin-web-ext/issues"
+  },
+  "homepage": "https://github.com/bdhl/gremlin-web-ext#readme"
+}
