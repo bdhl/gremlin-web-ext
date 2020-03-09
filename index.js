@@ -23,15 +23,10 @@
 
 'use strict';
 
-const WebDriverRemoteConnection = require('./lib/web-driver-remote-connection');
-const WebClient = require('./lib/client');
+const WsJsDriverRemoteConnection = require('./lib/ws-js-remote-connection');
+const WsJsClient = require('./lib/client');
 
-// const gremlin = require('gremlin');
-//
-// gremlin.driver.WebDriverRemoteConnection = WebDriverRemoteConnection;
-// gremlin.driver.WebClient = WebClient;
-
-module.exports = [
-  WebDriverRemoteConnection,
-  WebClient
-];
+module.exports = {
+  WsJsDriverRemoteConnection: WsJsDriverRemoteConnection,
+  WsJsClient: WsJsClient
+};
